@@ -85,6 +85,7 @@
       <li>
         <a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a>
       </li>
+
       <li>
         <a
           href="https://github.com/vuejs/vue-devtools#vue-devtools"
@@ -111,7 +112,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from "vue-property-decorator";
+import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
 export default class HelloWorld extends Vue {
